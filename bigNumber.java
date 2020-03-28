@@ -1,5 +1,5 @@
 // bigNumber.java
-// Assignment 39: Big Number Program
+// Assignment 35: Big Number Program
 
 import java.util.Scanner;
 
