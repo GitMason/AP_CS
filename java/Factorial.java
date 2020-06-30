@@ -11,12 +11,9 @@ public class Factorial {
   }
   
   public static int factorial(int n) {
-    if (n > 1) {
-      System.out.println(n);
-      n = n * factorial(n - 1);
-      System.out.println(n);
-      
+    if (n <= 1) {return(n);}
+    else {
+      return( n * factorial(n - 1)); 
     }
-    return(n);
   }
 }
